@@ -1,52 +1,13 @@
-<?php 
-// Pertemuan 2 - PHP Dasar
-// Sintaks
-// Standar Output
-// echo, print
-// print_r
-// var_dump
-
-// Penulisan sintaks PHP
-// 1. PHP di dalam HTML
-// 2. HTML di dalam PHP
-
-// Variable dam Tipe Data
-// Variabel
-// tidak boleh diawali dengan angka, tapi boleh mengandung angka
-// $nama = "Daffa Arkantaqqy Khoisy";
-// echo 'Halo, nama saya $nama';
-
-// Operator
-// aritmatika
-// + - * / %
-// $x = 10;
-// $y = 20;
-// echo $x * $y;
-
-// penggabung string / contatenation
-// .
-// $nama_depan = "Daffa"
-// $nama_belakang = "Arkantaqqy"
-// echo $nama_depan . " " . $nama_belakang
-
-// Assigement
-// =, +=, *=, /=, %=, .= 
-// $x = "1";
-// $x -= "5";
-// echo $x;
-
-// Perbandingan
-// <, >, <=, >=, ==
-// var_dump(1 == "1");
-
-// identitas
-// var_dump(1 == "1");
-// ===, !==
-
-// Logika
-// &&, ||, !
-// $x = 10;
-// var_dump($x < 20 && $x % 2 ==0);
-
-
-?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

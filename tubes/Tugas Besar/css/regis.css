@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  background-color: #262626;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.registrasi {
+  background-color: #f2f2f2;
+  width: 350px;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.registrasi h2 {
+  margin: 0 0 20px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.registrasi .input-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.registrasi .input-group input {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.registrasi .input-group span {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  padding: 0px;
+  text-transform: capitalize;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+
+.registrasi .input-group input:focus~span,
+.registrasi .input-group input:valid~span {
+  top: -12px;
+  left: 20px;
+  font-size: 12px;
+  color: #f2f2f2;
+  background-color: #262626;
+  padding: 2px 4px;
+  border: 1px solid #262626;
+  border-radius: 5px;
+}
+
+.registrasi .input-group input[type="submit"] {
+  background-color: #262626;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f2f2f2;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.5s;
+}
